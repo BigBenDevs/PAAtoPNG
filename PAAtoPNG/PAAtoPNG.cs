@@ -15,7 +15,7 @@ using System.Reflection;
 
 namespace PAAtoPNG
 {
-    public partial class Form1 : Form
+    public partial class PAAtoPNG : Form
     {
         string[] dirs;
         int dirslength;
@@ -54,7 +54,7 @@ namespace PAAtoPNG
             }
         }
 
-        public Form1()
+        public PAAtoPNG()
         {
             InitializeComponent();
             var IniSettings = new IniFile("Settings.ini");
@@ -79,7 +79,7 @@ namespace PAAtoPNG
             //public string stringsavesource = System.Convert.ToString(savesource);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void PAAtoPNG_Load(object sender, EventArgs e)
         {
             if (File.Exists("Settings.ini"))
             {
