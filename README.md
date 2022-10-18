@@ -14,4 +14,4 @@ functionality to convert individual files, so it will be grabbing every PAA in t
 Step 3: Select the destination path you would like the converted files to be sent to.  
 
 
-NOTE:  Save checkboxes do not currently update.  It's o the TODO list.
+NOTE:  Save checkboxes do not currently update.  It's on the TODO list.
